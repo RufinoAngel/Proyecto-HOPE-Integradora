@@ -1,4 +1,4 @@
-# FRONTEND
+# FRONTEND![CSS]( https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 En esta sección se encontrarán los archivos del código fuente de la interfaz de usuario de la aplicación, aquellos que permiten la interacción del usuario con la aplicación a través del navegador. Estos archivos incluyen el marcado con HTML, los estilos con CSS y el código con JavaScript que maneja la lógica en el cliente, también contamos con el apartado de Assets para recabar todos los recuros gráficos. 
 
