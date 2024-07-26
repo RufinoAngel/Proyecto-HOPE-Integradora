@@ -25,6 +25,9 @@ crear una página web que ayude a las personas sin hogar a encontrar uno. Se bus
 - Recolectar donaciones de personas externas para poder seguir con este plan.
 - Implementar una base de datos, para la recopilación tanto de información de las personas que ayudan, así como para los usuarios que necesitan la ayuda de vivienda.
 
+# **Diagrama de Gantt**
+![Diagrama de Gantt](/Images/Diagrama_de_Gantt.png)
+
 # **Listas de Tecnologías**
 <p align = "justify">JavaScript, permite dar un mejor formato a la página web, agregándole más interactividad.</p><br>
 
