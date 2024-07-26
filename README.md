@@ -25,31 +25,31 @@ crear una pagina web que ayude a las personas sin hogar a encontrar uno. Se busc
 # **Listas de Tecnologías**
 <p align = "justify">JavaScript, permite dar un mejor formato a la página web, agregandole más interactividad.</p><br>
 
-![java](/Images/JavaScript.svg)
+![java](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/JavaScript.svg)
 
 <p align = "justify">HTML nos permite la creación del código fuente de la página web.</p><br>
 
-![html](/Images/HTML5.svg) 
+![html](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/HTML5.svg) 
 
 <p align = "justify">CSS nos permite dar formato al codigo fuente, desde colores hasta tipo de fuente.</p><br>
 
-![css](/Images/CSS3-1572B6.svg)
+![css](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/CSS3-1572B6%20(1).svg)
 
 <p align = "justify">Visual studio code, nos permite la creación de nuestra página web mediante HTML y CSS..</p><br>
 
-![IDE](/Images/Visual_Studio_Code-0078D4.svg)
+![IDE](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/Visual_Studio_Code-0078D4.svg)
 
 <p align = "justify">Adobe Illustrator nos permite la creación de logotipos y adobe XD nos permite la creación de nuestros mapas de sitio para tener una mejor visión de nuestra página.</p><br>
 
-![Logos](/Images/Adobe_Illustrator-FF9A00.svg) ![Prototipos](/Images/Adobe%20_XD-470137.svg)
+![Logos](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/Adobe_Illustrator-FF9A00.svg) ![Prototipos](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/Adobe%20_XD-470137.svg)
 
 <p align = "justify">Git nos permite subir repositorios donde contenga toda nuestra información en una plataforma digital.</p><br>
 
-![Documentacion](/Images/GIT-E44C30.svg)
+![Documentacion](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/GIT-E44C30.svg)
 
 <p align = "justify">MySQL nos permite la creación de una base de datos, donde serán guardados cada uno de los datos ingresados por el usuario..</p><br>
 
-![mysql](/Images/MySQL-005C84.svg)
+![mysql](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/MySQL-005C84.svg)
 
 
 # **Autores**
