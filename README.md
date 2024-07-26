@@ -1,6 +1,6 @@
 # Proyecto-HOPE-Integradora
 # **Identidad Gráfica**
-![logotipo de la Esperanza](/Images/Logo_Hope.jpg) 
+![logotipo de la Esperanza](https://github.com/RufinoAngel/Proyecto-HOPE-Integradora/blob/Idai/Images/Logo_Hope.jpg) 
 
 
 # **Problematica**
