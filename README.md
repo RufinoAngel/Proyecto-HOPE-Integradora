@@ -1,6 +1,9 @@
 # Proyecto-HOPE-Integradora
 # **Identidad Gráfica**
+**Logotipo de producto**
 ![logotipo de la Esperanza](/Images/Logo_Hope.jpg) 
+**Logotipo de la Empresa**
+![Logotipo de la empresa Esperanza](/Images/Hope_empresa.png)
 
 
 # **Problematica**
