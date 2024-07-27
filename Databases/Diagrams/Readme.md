@@ -2,8 +2,16 @@
 ---
 En este apartado se mostrara el diagrama entidad relación basandonos en los requerimientos funcionales de la aplicacion, asi obteniendo las cardinalidades para al final poder gestionar la base de datos.
 
-![Diagrama](/Diagrams/images/diagrama.png)
+![Diagrama](/Databases/Diagrams/Diagrama.png)
 **1.-Usuario:** El usuario se registra con datos personales como nombre, apellidos, fecha de nacimiento y edad, tambien generando una contraseña
+
+Del usuario se heredaran otras tres entidades las cuales son: 
+
+**Administrador:** Es quien estara adiministrando las cuentas
+
+**Ayudante:** Sera la persona que quien auxilie a la persona que necesitara a la persona sin hogar
+
+**Persona sin hogar:** Persona que necesitara de ayuda, se le asignara aparte su id_usuario y se tomaran los datos personales
 
 **2.-Perfil:** El usuario ingresa a su perfil en busqueda de un albergue cercano
  
@@ -14,5 +22,10 @@ En este apartado se mostrara el diagrama entidad relación basandonos en los req
 **5.-Notificacion:** El perfil del albergue enviara la notificacion o validacion de los usuarios, y esta sera enviada al usuario para hacerle saber la validacion del albergue
 
 **6.-Reportes:** El usuario tendra un apartado para poder realizar reportes o comentarios si estuvo en algun desacuerdo con el servicio brindado
+
+**7.- Donante:** Este apartado o entidad sera exclusivamente solo para donar, no necesariamente tendra que crear una cuenta. Sera una entidad externa.
+
+**8.- Calendario:** Cada albergue tendra su propio calendario de disponiblilidad, esto sera para saber cuantas vancantes tendra.
+
 
 
