@@ -1,4 +1,4 @@
-# **Requerimietos Funcinales**
+# **Requerimietos Funcinoales**
 
 <p align= "justify">Los requisitos funcionales pueden ser: calculos, detalles técnicos, manipulación de datos y otras funcionalidades específicas que se suponw, un sistema debe cumplir.</p>
 
