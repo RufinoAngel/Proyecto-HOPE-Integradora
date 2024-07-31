@@ -11,7 +11,8 @@ A continuación se muestran los Sketches:
 **2. Boceto "Sobre Nosotros"**
 ![Pagina de Inicio](/Images/Nosotros.jpg)
 **3. Boceto "Servicios"**
-![Pagina de Inicio](/Images/Servicios.jpg)
+![Pagina de Inicio](/Images/Servicios.jpg) 
+ ![Servicios](/Images/serv_2.jpg)
 **4. Boceto "Voluntariado"**
 ![Pagina de Inicio](/Images/Voluntariado.jpg)
 **5. Boceto "Donaciones"**
