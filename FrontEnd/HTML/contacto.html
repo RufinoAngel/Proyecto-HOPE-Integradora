@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 id="HP">H</h1>
+        <h1 id="OE">O</h1>
+        <h1 id="HP">P</h1>
+        <h1 id="OE">E</h1>
+    </header>
+    <div class="btn-sup">
+        <button onclick="location.href='Nosotros.html'">Nosotros</button>
+        <button onclick="location.href='servicios.html'">Servicios</button>
+        <button onclick="location.href='registro.html'">Registro</button>
+        <button onclick="location.href='donación.html'">Donación</button>
+        <button onclick="location.href='user.html'">Inicio</button>
+    </div>
+    <div class="tit">
+        <h2 id="Sobre">Calendario de Eventos </h2>
+    </div>
+    <div class="container-even">
+        <section class="details">
+            <h2>Detalles</h2>
+            <div class="details-content">
+
+            </div>
+        </section>
+        <section class="calendar">
+            <h2>Calendario</h2>
+            <div class="calendar-content">
+                <img src="/Assets/95473dd0ea87f68fca7dcb023a705f72.jpg" alt="" width="500px" height="600px">
+            </div>
+        </section>
+        <section class="participation">
+            <h2>Participación</h2>
+            <ul>
+                <li>1: Participante A</li>
+                <li>2: Participante B</li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <div class="footer-section">
+              <h3>Apoya nuestro trabajo</h3>
+              <p>Ayuda a las personas refugiadas</p>
+              <button>Donar ahora</button>
+            </div>
+            <div class="footer-section">
+              <h3>Síguenos en las redes sociales</h3>
+              <div class="social-icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-tiktok"></i>
+              </div>
+            </div>
+            <div class="footer-section">
+              <h3>Infórmate</h3>
+              <p>Si necesitas ayuda no olvides contactarnos o regístrate</p>
+              <button>Registrarme</button>
+            </div>
+            <div class="footer-section">
+              <h3>Contáctanos</h3>
+              <p><i class="fas fa-phone"></i> 221 729 0005</p>
+              <p><i class="fas fa-phone"></i> 881 900 1990</p>
+            </div>
+            <button id="settingsButton"><i class="fas fa-ellipsis-v"></i></button>
+        </div>
+      </footer> 
+      <div id="settingsModal" class="modal">
+        <div class="modal-content">
+          <a href="#close" title="Close" class="close">X</a>
+          <h2>Ajustes</h2>
+          <div class="flip-card">
+            <h3>Cambiar Foto de Perfil</h3>
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="/Assets/pefil.png" alt="Avatar" style="width: 200px; height: 200px;">
+                </div>
+                <div class="flip-card-back">
+                    <img src="/Assets/perfil2.png" alt="" style="width: 200px; height: 200px;">
+                </div>
+            </div>
+        </div>
+        <div class="cont-ajus">
+          <label>Cambió de contraseña:
+            <input type="text" name="" id="nur" placeholder="Contraseña">
+            <input type="text" name="" id="nur" placeholder="Nueva Contraseña">
+            <br>
+            <button onclick="location.href='contacto.html'">Guardar</button>
+            <br>
+          </label>
+        </div>
+        <br>
+        <div class="cont-ajus2">
+          <br>
+          <label>Actualizar Número: <br>
+            <input type="number" name="" id="num" placeholder="Numero">
+            <input type="number" name="" id="num" placeholder="Nuevo Número">
+            <button onclick="location.href='contacto.html'">Guardar</button>
+          </label>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="/modal.js"></script>
+</body>
+</html>

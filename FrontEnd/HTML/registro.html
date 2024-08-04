@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="HP">H</h1>
+        <h1 id="OE">O</h1>
+        <h1 id="HP">P</h1>
+        <h1 id="OE">E</h1>
+      </header>
+      <div class="btn-sup">
+        <button onclick="location.href='Nosotros.html'">Nosotros</button>
+        <button onclick="location.href='servicios.html'">Servicios</button>
+        <button onclick="location.href='user.html'">Inicio</button>
+        <button onclick="location.href='donación.html'">Donación</button>
+        <button onclick="location.href='contacto.html'">Calendario</button>
+      </div>
+      <div class="tit">
+        <h2 id="Sobre">Registro De Personal</h2>
+      </div>
+      <br><br>
+      <div class="form-container">
+        <h1>Formulario de Habilidades</h1>
+        <form action="/submit_form" method="POST">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="telefono">Edad:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+    
+            <label for="correo">Número Identificador:</label>
+            <input type="number" id="id" name="id">
+    
+            <label for="habilidades">Habilidades</label>
+            <textarea id="habilidades" name="habilidades" rows="5" required></textarea>
+    
+            <label for="disponibilidad">Disponibilidad</label>
+            <select id="disponibilidad" name="disponibilidad" required>
+                <option value="tiempo_completo">Tiempo Completo</option>
+                <option value="medio_tiempo">Medio Tiempo</option>
+                <option value="por_horas">Por Horas</option>
+            </select>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-section">
+          <h3>Apoya nuestro trabajo</h3>
+          <p>Ayuda a las personas refugiadas</p>
+          <button>Donar ahora</button>
+        </div>
+        <div class="footer-section">
+          <h3>Síguenos en las redes sociales</h3>
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Infórmate</h3>
+          <p>Si necesitas ayuda no olvides contactarnos o regístrate</p>
+          <button>Registrarme</button>
+        </div>
+        <div class="footer-section">
+          <h3>Contáctanos</h3>
+          <p><i class="fas fa-phone"></i> 221 729 0005</p>
+          <p><i class="fas fa-phone"></i> 881 900 1990</p>
+        </div>
+      </footer>
+    
+    
+</body>
+</html>

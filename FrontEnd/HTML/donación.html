@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <h1 id="HP">H</h1>
+        <h1 id="OE">O</h1>
+        <h1 id="HP">P</h1>
+        <h1 id="OE">E</h1>
+    </header>
+    <div class="btn-sup">
+        <button onclick="location.href='Nosotros.html'">Nosotros</button>
+        <button onclick="location.href='servicios.html'">Servicios</button>
+        <button onclick="location.href='registro.html'">Registro</button>
+        <button onclick="location.href='user.html'">Inicio</button>
+        <button onclick="location.href='contacto.html'">Calendario</button>
+    </div>
+    <div class="tit">
+        <h2 id="Sobre">Donación </h2>
+    </div>
+    <h2 style="text-align: justify;">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Como Hacerlo:</h2>
+    <div class="donacion">
+        <h4>1.- Selecciona el tipo de donación que deseas realizar</h4>
+        <h4>2.-Si seleccionaste donación monetaria <br>
+          ● Selecciona el monto que deseas donar <br>
+          ● Introduce el número de cuenta <br>
+          ● Introduce el cvv <br>
+          ● Introduce la vigencia <br>
+          ● Nombre Completo <br>
+          ● Da click en Donar Ahora <br>  
+         </h4>
+        <h4>3.- Si seleccionaste donación Alimenticia o Medicamento <br>
+          ● Introduce tu Nombre completo <br> 
+          ●Selecciona los productos a donar <br>
+          ● Introduce el albergue <br>
+          ● Dirección para recolección de la donación <br>
+          ● Da click en Donar Ahora <br>
+          </h4>
+        <h4>4.- Si seleccionaste donación para Vestimenta <br>
+          ● Introduce tu nombre completo <br>
+          ● Selecciona el tipo de ropa a donar <br>
+          ● Introduce el albergue a donde deseas donar <br> 
+          ● Dirección para recolección de la donación <br>
+          ●   Da click en Donar Ahora </h4>
+    </div>
+    <br><br>
+    <h2 style="text-align: justify;">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Tipo de Donación:</h2>
+    <div class="tipdon">
+      <form action="#">
+          <label for="dona">Tipo de Donación</label>
+          <select name="donacion" id="dona">
+              <option value="monetario">Monetario</option>
+              <option value="alimentario">Alimenticia o Medicamento</option>
+              <option value="ropa">Vestimenta</option>
+          </select>
+      </form>
+      <div class="donar-btn-container">
+          <button type="button" class="donar-btn">Seleccionar</button>
+      </div>
+  </div>
+
+  <!-- Formularios -->
+  <div id="form-monetario" class="form-container">
+      <h4>2.- Donación Monetaria</h4>
+      <form>
+          <label for="monto">Monto</label>
+          <input type="number" id="monto" name="monto">
+          <label for="cuenta">Número de cuenta</label>
+          <input type="text" id="cuenta" name="cuenta">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv">
+          <label for="vigencia">Vigencia</label>
+          <input type="text" id="vigencia" name="vigencia">
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" id="nombre" name="nombre">
+          <button type="button" class="donar-ahora-btn">Donar Ahora</button>
+      </form>
+  </div>
+
+  <div id="form-alimentario" class="form-container">
+      <h4>3.- Donación Alimenticia o Medicamento</h4>
+      <form>
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" id="nombre" name="nombre">
+          <label for="productos">Selecciona los productos a donar</label>
+          <input type="text" id="productos" name="productos">
+          <label for="albergue">Introduce el albergue</label>
+          <input type="text" id="albergue" name="albergue">
+          <label for="direccion">Dirección para recolección de la donación</label>
+          <input type="text" id="direccion" name="direccion">
+          <button type="button" class="donar-ahora-btn">Donar Ahora</button>
+      </form>
+  </div>
+
+  <div id="form-ropa" class="form-container">
+      <h4>4.- Donación para Vestimenta</h4>
+      <form>
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" id="nombre" name="nombre">
+          <label for="tipoRopa">Selecciona el tipo de ropa a donar</label>
+          <input type="text" id="tipoRopa" name="tipoRopa">
+          <label for="albergue">Introduce el albergue</label>
+          <input type="text" id="albergue" name="albergue">
+          <label for="direccion">Dirección para recolección de la donación</label>
+          <input type="text" id="direccion" name="direccion">
+          <button type="button" class="donar-ahora-btn">Donar Ahora</button>
+      </form>
+  </div>
+    <footer class="footer">
+        <div class="footer-section">
+          <h3>Apoya nuestro trabajo</h3>
+          <p>Ayuda a las personas refugiadas</p>
+          <button>Donar ahora</button>
+        </div>
+        <div class="footer-section">
+          <h3>Síguenos en las redes sociales</h3>
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Infórmate</h3>
+          <p>Si necesitas ayuda no olvides contactarnos o regístrate</p>
+          <button>Registrarme</button>
+        </div>
+        <div class="footer-section">
+          <h3>Contáctanos</h3>
+          <p><i class="fas fa-phone"></i> 221 729 0005</p>
+          <p><i class="fas fa-phone"></i> 881 900 1990</p>
+        </div>
+      </footer>
+      <script src="/modal2.js"></script> 
+</body>
+</html>
