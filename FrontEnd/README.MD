@@ -18,6 +18,6 @@ Integradora-HOPE/<br>
 | Integrante | Contacto | Rol | Observaciones |
 |-------------|--------|----------|---------------|
 |  Angel de Jesús Rufino Mendoza   |  [@RufinoAngel](https://github.com/RufinoAngel)      |    Líder del Desarrollo FrontEnd   |  ✅Revisado y aprobado  |
-|Guadalupe Idai Vargas Galindo|[@IdaiVG](https://github.com/IdaiVG)|Desarrollador FrontEnd| ✅Revisado y aprobado |
-|Dulce Balderas Gomez|[@DulceBal](https://github.com/DulceBal)|Desarrollador FrontEnd|❌Sin revisión|
-|Antonio Ocpaco Dolores|[@ANTONIOOCPACODOLORES](https://github.com/ANTONIOOCPACODOLORES)|Desarrollador FrontEnd|❌Sin revisión|
+|Guadalupe Idai Vargas Galindo|[@IdaiVG](https://github.com/IdaiVG)|Desarrollador Backend y Documentadora| ✅Revisado y aprobado |
+|Dulce Balderas Gomez|[@DulceBal](https://github.com/DulceBal)|Desarrollador de Databases|❌Sin revisión|
+|Antonio Ocpaco Dolores|[@ANTONIOOCPACODOLORES](https://github.com/ANTONIOOCPACODOLORES)|Encargado de Hosting|❌Sin revisión|
