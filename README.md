@@ -1,18 +1,33 @@
 # Proyecto-HOPE-Integradora
+<br>
+<br>
+
 # **Identidad Gráfica**
+<br>
+
 **Logotipo de producto**
 ![logotipo de la Esperanza](/Images/Logo_Hope.jpg) 
+<br>
+<br>
+
 **Logotipo de la Empresa**
 ![Logotipo de la empresa Esperanza](/Images/Hope_empresa.png)
 
+<br>
+<br>
 
 # **Problematica**
 <p align = "justify">
 Este proyecto surge al observar en las calles el aumento de personas que no cuentan con un hogar y duermen en las calles, exponiéndose a peligros, al clima cambiante, además de que estos no son bien vistos en las calles por las demás personas, por ende, nosotros deseamos implementar un sistema en el cual podamos registrar a estas personas y buscarles un hogar cálido, brindarles comida, baño y ropa decente, igualmente se busca que estas personas ayuden en el mismo sitio de acogida, ya sea ayudando en las tareas diarias del lugar o teniendo la opcortunidad de trabajar de manera externa. Con este proyecto buscamos ayudar a los más necesitados y apoyarlos para su reintegración a la sociedad.</p>
+<br>
+<br>
 
 # **Solución de la problemática**
 <p align ="justify">
 Se busca no solo proporcionar alivio temporal a las personas sin hogar, sino también ofrecerles una vía hacia una vida más digna y autosuficiente, facilitando su reintegración en la sociedad. Para ello se busca crear una página en la que se puedan encontrar albergues o casas de acogida que tengan espacio suficiente para nuevos miembros, además de implementar apoyos para estas personas, estos apoyos serán de tipo capacitación para que estos logren conseguir trabajo para así superarse.</p>
+
+<br>
+<br>
 
 # **Objetivo general**
 <p align = "justify">
@@ -25,8 +40,23 @@ crear una página web que ayude a las personas sin hogar a encontrar uno. Se bus
 - Recolectar donaciones de personas externas para poder seguir con este plan.
 - Implementar una base de datos, para la recopilación tanto de información de las personas que ayudan, así como para los usuarios que necesitan la ayuda de vivienda.
 
+<br>
+<br>
+
+# **Organigrama**
+![Organigrama](/Images/Organigrama.png) 
+<br>
+<br>
+
+# **Diagrama de Roles**
+![Diagrama de Roles](/Images/Diagrama%20de%20Roles.png)
+<br>
+<br>
+
 # **Diagrama de Gantt**
 ![Diagrama de Gantt](/Images/Diagrama_de_Gantt.png)
+<br>
+<br>
 
 # **Listas de Tecnologías**
 <p align = "justify">JavaScript, permite dar un mejor formato a la página web, agregándole más interactividad.</p><br>
