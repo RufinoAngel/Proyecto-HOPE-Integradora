@@ -17,6 +17,6 @@ En esta carpeta estan ingresadas las subcarpetas en donde se encuentran todo lo 
    |Integrante|Contacto|Rol|Observaciones|
    |----------|--------|---|-------------|
    |Balderas Gomez Dulce|[@DulceBal](https://github.com/Josue-Martinez-Otero)|Líder de Databases|✅ Revisado y aprobado.|
-   |Vargas Galindo Guadalupe Idai  |[@IdaiVG](https://github.com/IdaiVG)|Desarrollora Backend y encargada de Documentación|❌ No ha agregado el diagrama actualizado|
+   |Vargas Galindo Guadalupe Idai  |[@IdaiVG](https://github.com/IdaiVG)|Desarrollora Backend y encargada de Documentación|❌ Revisado, apliac un "br"  para bajar el parráfo después del diagrama.|
    |Rufino Mendoza Ángel de Jesús|[@RufinoAngel](https://github.com/RufinoAngel)|Desarrollador Frontend|❌ Falta el diagrama actualizado|
    |Ocpaco Dolores Antonio |[@ANTONIOOCPACODOLORES](https://github.com/ANTONIOOCPACODOLORES)|Encargado de Hosting|❌ Sin comentar|
