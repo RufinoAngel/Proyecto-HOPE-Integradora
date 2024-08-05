@@ -7,25 +7,55 @@
 A continuación se muestran los Sketches:
 
 **1. Boceto "Página de Inicio"**
-![Pagina de Inicio](/Images/Inicio.jpg)
+![Pagina de Inicio](/Assets/Inicio.jpg)
+
+<br>
+
 **2. Boceto "Sobre Nosotros"**
-![Pagina de Inicio](/Images/Nosotros.jpg)
+![Pagina de Inicio](/Assets/Nosotros.jpg)
+
+<br>
+
 **3. Boceto "Servicios"**
-![Pagina de Inicio](/Images/Servicios.jpg) 
- ![Servicios](/Images/serv_2.jpg)
+![Pagina de Inicio](/Assets/Servicios.jpg) 
+ ![Servicios](/Assets/serv_2.jpg)
+
+<br>
+
 **4. Boceto "Voluntariado"**
-![Pagina de Inicio](/Images/Voluntariado.jpg)
+![Pagina de Inicio](/Assets/Voluntariado.jpg)
+
+<br>
+
 **5. Boceto "Donaciones"**
-![Pagina de Inicio](/Images/Donaciones.jpg)
+![Pagina de Inicio](/Assets/Donaciones.jpg)
+
+<br>
+
 **6. Boceto "Contacto"**
-![Pagina de Inicio](/Images/Contacto.jpg)
+![Pagina de Inicio](/Assets/Contacto.jpg)
+
+<br>
+
 **7. Boceto "Buzón"**
-![Pagina de Inicio](/Images/Buzon.jpg)
+![Pagina de Inicio](/Assets/Buzon.jpg)
+
+<br>
+
 **8. Boceto "Panel del Administrador"**
-![Pagina de Inicio](/Images/Administracion.jpg)
+![Pagina de Inicio](/Assets/Administracion.jpg)
+
+<br>
+
 **9. Boceto "Calendario de Eventos"**
-![Pagina de Inicio](/Images/Calendario.jpg)
+![Pagina de Inicio](/Assets/Calendario.jpg)
+
+<br>
+
 **10. Boceto "Registro de Personal y voluntarios"**
-![Pagina de Inicio](/Images/Registro.jpg)
+![Pagina de Inicio](/Assets/Registro.jpg)
+
+<br>
+
 **11. Boceto "Administrar y configurar"**
-![Pagina de Inicio](/Images/Configuración.jpg)
+![Pagina de Inicio](/Assets/Configuración.jpg)

@@ -5,4 +5,4 @@
 <p align = "justif">En esta sección mostraremos nuestros mockups que se espera contenga en su totalidad la página web.</p>
 
 A continuación, mostramos un ejemplo de mockups:
-![Ejemplo de Mockup](/Images/Ejm_mockup.png)
+![Ejemplo de Mockup](/Assets/Ejm_mockup.png)
