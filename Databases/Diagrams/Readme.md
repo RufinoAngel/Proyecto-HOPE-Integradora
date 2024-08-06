@@ -4,7 +4,7 @@ En este apartado se mostrara el diagrama entidad relación basandonos en los req
 Se realizo una nueva actualización sobre el diagrama, tambien se subio un archivo en donde se creo paso a paso.
 
 
-![Diagrama](/Databases/Diagrams/Diagrama.png)
+![Diagrama](/Databases/Diagrams/Diagrama.png)<br>
 **1.-Usuario:** El usuario se registra con datos personales como nombre, apellidos, fecha de nacimiento y edad, tambien generando una contraseña
 
 Del usuario se heredaran otras tres entidades las cuales son: 
