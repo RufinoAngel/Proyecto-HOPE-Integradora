@@ -6,11 +6,17 @@
 <br>
 
 **Logotipo de producto**
+
+<br>
+
 ![logotipo de la Esperanza](/Assets/Logo_Hope.jpg) 
 <br>
 <br>
 
 **Logotipo de la Empresa**
+
+<br>
+
 ![Logotipo de la empresa Esperanza](/Assets/Hope_empresa.png)
 
 <br>
@@ -34,7 +40,7 @@ Se busca no solo proporcionar alivio temporal a las personas sin hogar, sino tam
 crear una página web que ayude a las personas sin hogar a encontrar uno. Se busca que personas externas nos apoyen encontrando a gente sin hogar, a las cuales se les pedirán sus datos para afiliarlos a una casa hogar o albergue cercano, esto pues, algunas personas en situación de calle no cuentan con dispositivos móviles, o no saben leer y escribir.</p>
 
 ## **Objetivos Específicos**
-- Crear una página web, la cual nos sea de utilidad para ayudar a la gente sin hogar a encontrar uno cerca de donde se encuentra.
+- Ayudar a la gente sin hogar a encontrar uno cerca de donde se encuentra.
 - Examinar a las personas que carecen de un hogar para determinar si no son peligrosos y son aptos para reintegrarse de manera sana, y que sean colaborativos, esto mediante entrevistas.
 - Implementar la búsqueda de albergues y casas de acogida en al menos un rango de 5 km, para tener en cuenta cuantos lugares pueden acoger a las personas necesitadas, e implementarlo a nuestra base de datos.
 - Recolectar donaciones de personas externas para poder seguir con este plan.
