@@ -59,6 +59,12 @@ crear una página web que ayude a las personas sin hogar a encontrar uno. Se bus
 <br>
 <br>
 
+# **Tabla de Colaboradores**
+![Tabla de Colaboradores](/Assets/Plantilla_empleados.png)
+
+<br>
+<br>
+
 # **Diagrama de Gantt**
 ![Diagrama de Gantt](/Assets/Diagrama_de_Gantt.png)
 <br>
@@ -96,6 +102,6 @@ crear una página web que ayude a las personas sin hogar a encontrar uno. Se bus
 
 # **Autores**
 - **Vargas Galindo Guadalupe Idai** [@IdaiVG](https://github.com/IdaiVG)
-- **Baldera Gomez Dulce** [@DulceBal](https://github.com/DulceBal).
+- **Baldera Gomez Dulce** [@DulceBal](https://github.com/DulceBal)
 - **Rufino Mendoza Ángel de Jesús** [@RufinoAngel](https://github.com/RufinoAngel)
 - **Ocpaco Dolores Antonio** [@ANTONIOOCPACODOLORES](https://github.com/ANTONIOOCPACODOLORES)
