@@ -60,7 +60,7 @@ crear una página web que ayude a las personas sin hogar a encontrar uno. Se bus
 <br>
 
 # **Tabla de Colaboradores**
-![Tabla de Colaboradores](/Assets/Plantilla_empleados.png)
+![Tabla de Colaboradores](/Assets/Tabla%20de%20colaboradores.png)
 
 <br>
 <br>
