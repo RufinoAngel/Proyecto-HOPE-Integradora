@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="/FrontEnd//CSS/styles.css">
+    <link rel="icon" href="/FrontEnd/Assets/logo-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 id="HP">H</h1>
+        <h1 id="OE">O</h1>
+        <h1 id="HP">P</h1>
+        <h1 id="OE">E</h1>
+    </header>
+    <div class="btn-sup">
+      <button onclick="location.href='/FrontEnd/HTML/user.html'">Inicio</button>
+      <button onclick="location.href='/FrontEnd/HTML/Nosotros.html'">Nosotros</button>
+      <button onclick="location.href='/FrontEnd/HTML/registro.html'">Registro</button>
+      <button onclick="location.href='/FrontEnd/HTML/donación.html'">Donación</button>
+      <button onclick="location.href='/FrontEnd/HTML/contacto.html'">Calendario</button>      
+    </div>
+    <div class="tit">
+        <h2 id="Sobre">Servicios</h2>
+    </div>
+    <div class="regis-sup">
+        <h2>Registro</h2>
+        <div class="cont-reg1">
+          <a href="#modal1"><button>Registrar</button></a>
+        </div>
+    </div>
+    <div id="modal1" class="modalmask">
+      <div class="modalbox movedown">
+          <a href="#close" title="Close" class="close">X</a>
+          <div class="titulo">
+              <h3>Registro de persona s/n hogar</h3>
+          </div>
+          <div class="formulario">
+              <form action="#registro" method="post">
+                  <div class="input-superior">
+                      <label>Nombre: <br><input type="text" name="name" id="name" placeholder="Nombres"></label>
+                      <label>Apellidos: <br><input type="text" name="apellido" id="apellido" placeholder="Apellidos"></label>
+                  </div>
+                  <div class="input-intermedio">
+                      <label>Curp: <input type="text" name="curp" id="curp" placeholder="Curp"></label>
+                  </div>
+                  <div class="input-inferior">
+                    <label>¿Presenta alguna enfermedad?: <br>
+                      <input type="radio" name="enfermedad" id="Si" value="Si"> Si
+                      <input type="radio" name="enfermedad" id="No" value="No"> No
+                      <br>
+                    </label>
+                    <label>Indique la enfermedad en caso de tenerla <input type="text" name="" id=""></label>
+                    <label>¿Tiene Familia?: <br>
+                      <input type="radio" name="Familia?" id="Si" value="Si"> Si
+                      <input type="radio" name="Familia?" id="No" value="No"> No
+                      <br>
+                    </label>
+                  </div>
+                  <div class="botones">
+                      <button type="button" class="guardar" onclick="location.href='servicios.html'">Guardar</button>
+                      <button type="button" class="cancelar" onclick="location.href='servicios.html'">Cancelar</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+    <div class="regis-inf">
+      <h2>Nuestros Recursos</h2>
+      <div class="recursos">
+        <h3>1. Comida Caliente</h3>
+        <h3>2. Baños Completos</h3>
+        <h3>3. Ropa</h3>
+        <h3>4. Articulos de Limpieza</h3>
+        <h3>5. Cobijas</h3>
+        <h3>6. Techo Seguro</h3>
+      </div>
+      <br>
+      <br>
+    </div>
+    <div class="his">
+        <h2>Ubicación de Albergue</h2>
+        <div class="fakeimg" style="height: 200px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60166.60006546306!2d-98.33548786260793!3d18.9888237097739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0e25c1921af%3A0xc2970b792a883c74!2sAlbergue%20IMSS%20SAN%20JOSE!5e0!3m2!1ses!2smx!4v1690738696145!5m2!1ses!2smx"
+            width="300"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        
+    </div>
+    <div class="enc">
+      <h3> Ayudanos Contestando la Siguente Encuesta</h3>
+      <a href="#modal2"><button>Encuesta De Satisfacción</button></a>
+    </div>
+    <div id="modal2" class="modalmask">
+      <div class="modalbox movedown">
+          <a href="#close" title="Close" class="close">X</a>
+          <div class="titulo">
+              <h3>Encuesta </h3>
+          </div>
+          <div class="formulario">
+              <form action="#registro" method="post">
+                  <div class="input-superior">
+                      <label>¿Que te pareció el servicio? <br><br>
+                        <input type="radio" name="encuesta" id="5" value="5">5
+                        <input type="radio" name="encuesta" id="4" value="4">4
+                        <input type="radio" name="encuesta" id="3" value="3">3
+                        <input type="radio" name="encuesta" id="2" value="2">2
+                        <input type="radio" name="encuesta" id="1" value="1">1
+                      </label>
+                  </div>
+                  <div class="input-intermedio">
+                      <label> ¿En que podemos mejorar? <input type="text" name="curp" id="curp" ></label>
+                  </div>
+                  <div class="input-inferior">
+                    <label>Puede dejar su comentario <br> <input type="text" name="" id="com"></label>
+                  </div>
+                  <div class="botones">
+                      <button type="button" class="guardar" onclick="location.href='servicios.html'">Guardar</button>
+                      <button type="button" class="cancelar" onclick="location.href='servicios.html'">Cancelar</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-section">
+          <h3>Apoya nuestro trabajo</h3>
+          <p>Ayuda a las personas refugiadas</p>
+          <button>Donar ahora</button>
+        </div>
+        <div class="footer-section">
+          <h3>Síguenos en las redes sociales</h3>
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Infórmate</h3>
+          <p>Si necesitas ayuda no olvides contactarnos o regístrate</p>
+          <button>Registrarme</button>
+        </div>
+        <div class="footer-section">
+          <h3>Contáctanos</h3>
+          <p><i class="fas fa-phone"></i> 221 729 0005</p>
+          <p><i class="fas fa-phone"></i> 881 900 1990</p>
+        </div>
+      </footer>
+      <script src="/FrontEnd/JS/main.js"></script>
+</body>
+</html>
