@@ -37,7 +37,7 @@ Se busca no solo proporcionar alivio temporal a las personas sin hogar, sino tam
 
 # **Objetivo general**
 <p align = "justify">
-crear una página web que ayude a las personas sin hogar a encontrar uno. Se busca que personas externas nos apoyen encontrando a gente sin hogar, a las cuales se les pedirán sus datos para afiliarlos a una casa hogar o albergue cercano, esto pues, algunas personas en situación de calle no cuentan con dispositivos móviles, o no saben leer y escribir.</p>
+Crear una página web que ayude a las personas sin hogar a encontrar uno. Se busca que personas externas nos apoyen encontrando a gente sin hogar, a las cuales se les pedirán sus datos para afiliarlos a una casa hogar o albergue cercano, esto pues, algunas personas en situación de calle no cuentan con dispositivos móviles, o no saben leer y escribir.</p>
 
 ### **Objetivos Específicos**
 - Ayudar a la gente sin hogar a encontrar uno cerca de donde se encuentra.
