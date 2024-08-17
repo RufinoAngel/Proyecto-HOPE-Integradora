@@ -1,23 +1,26 @@
-# Proyecto-HOPE-Integradora
+![utxj](/FrontEnd/Assets/LOGOS_UT.png) 
 <br>
 <br>
 
-# **Identidad Gráfica**
-<br>
 
-**Logotipo de producto**
 
-<br>
-
-![logotipo de la Esperanza](/Assets/Logo_Hope.jpg) 
+<h1 align="center"> Universidad Tecnológica de Xicotepec de Juárez </h1>
+<h1 align="center"> T.S.U en Desarrollo de Software Multiplataforma</h1>
+<h1 align="center"> Tarea Integradora </h1>
+<h2 align="center"> Tercer Cuatrimestre Grupo B </h2>
 <br>
 <br>
 
-**Logotipo de la Empresa**
+<div align="center">
+  
+| LOGO DEl SITIO  | LOGO DE LA EMPRESA | 
+|:------------- |:---------------:| 
+<img src="/FrontEnd/Assets/Logo_Hope.jpg" width="400" height="400">|<img src="/FrontEnd/Assets/Hope_empresa.png" width="400" height="400">|
+  
+</div>
 
-<br>
 
-![Logotipo de la empresa Esperanza](/Assets/Hope_empresa.png)
+
 
 <br>
 <br>
@@ -50,54 +53,54 @@ Crear una página web que ayude a las personas sin hogar a encontrar uno. Se bus
 <br>
 
 # **Organigrama**
-![Organigrama](/Assets/Organigrama.png) 
+![Organigrama](/FrontEnd/Assets/Organigrama.png) 
 <br>
 <br>
 
 # **Diagrama de Roles**
-![Diagrama de Roles](/Assets/Diagrama%20de%20Roles.png)
+![Diagrama de Roles](/FrontEnd/Assets/Diagrama%20de%20Roles.png)
 <br>
 <br>
 
 # **Tabla de Colaboradores**
-![Tabla de Colaboradores](/Assets/Tabla%20de%20colaboradores.png)
+![Tabla de Colaboradores](/FrontEnd/Assets/Tabla%20de%20colaboradores.png)
 
 <br>
 <br>
 
 # **Diagrama de Gantt**
-![Diagrama de Gantt](/Assets/Diagrama_de_Gantt.png)
+![Diagrama de Gantt](/FrontEnd/Assets/Diagrama_de_Gantt.png)
 <br>
 <br>
 
 # **Listas de Tecnologías**
 <p align = "justify">JavaScript, permite dar un mejor formato a la página web, agregándole más interactividad.</p><br>
 
-![java](/Assets/JavaScript.svg)
+![java](/FrontEnd/Assets/JavaScript.svg)
 
 <p align = "justify">HTML nos permite la creación del código fuente de la página web.</p><br>
 
-![html](/Assets/HTML5.svg) 
+![html](/FrontEnd/Assets/HTML5.svg) 
 
 <p align = "justify">CSS nos permite dar formato al codigo fuente, desde colores hasta tipo de fuente.</p><br>
 
-![css](/Assets/CSS3-1572B6.svg)
+![css](/FrontEnd/Assets/CSS3-1572B6.svg)
 
 <p align = "justify">Visual studio code, nos permite la creación de nuestra página web mediante HTML y CSS..</p><br>
 
-![IDE](/Assets/Visual_Studio_Code-0078D4.svg)
+![IDE](/FrontEnd/Assets/Visual_Studio_Code-0078D4.svg)
 
 <p align = "justify">Adobe Illustrator nos permite la creación de logotipos y adobe XD nos permite la creación de nuestros mapas de sitio para tener una mejor visión de nuestra página.</p><br>
 
-![Logos](/Assets/Adobe_Illustrator-FF9A00.svg) ![Prototipos](/Assets/Adobe%20_XD-470137.svg)
+![Logos](/FrontEnd/Assets/Adobe_Illustrator-FF9A00.svg) ![Prototipos](/FrontEnd/Assets/Adobe%20_XD-470137.svg)
 
 <p align = "justify">Git nos permite subir repositorios donde contenga toda nuestra información en una plataforma digital.</p><br>
 
-![Documentacion](/Assets/GIT-E44C30.svg)
+![Documentacion](/FrontEnd/Assets/GIT-E44C30.svg)
 
 <p align = "justify">MySQL nos permite la creación de una base de datos, donde serán guardados cada uno de los datos ingresados por el usuario..</p><br>
 
-![mysql](/Assets/MySQL-005C84.svg)
+![mysql](/FrontEnd/Assets/MySQL-005C84.svg)
 
 
 # **Autores**
