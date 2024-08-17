@@ -107,4 +107,3 @@ Crear una página web que ayude a las personas sin hogar a encontrar uno. Se bus
 - **Vargas Galindo Guadalupe Idai** [@IdaiVG](https://github.com/IdaiVG)
 - **Baldera Gomez Dulce** [@DulceBal](https://github.com/DulceBal)
 - **Rufino Mendoza Ángel de Jesús** [@RufinoAngel](https://github.com/RufinoAngel)
-- **Ocpaco Dolores Antonio** [@ANTONIOOCPACODOLORES](https://github.com/ANTONIOOCPACODOLORES)
