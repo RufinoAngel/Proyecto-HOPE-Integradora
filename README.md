@@ -33,7 +33,7 @@ Este proyecto surge al observar en las calles el aumento de personas que no cuen
 
 # **Solución de la problemática**
 <p align ="justify">
-Se busca no solo proporcionar alivio temporal a las personas sin hogar, sino también ofrecerles una vía hacia una vida más digna y autosuficiente, facilitando su reintegración en la sociedad. Para ello se busca crear una página en la que se puedan encontrar albergues o casas de acogida que tengan espacio suficiente para nuevos miembros, además de implementar apoyos para estas personas, estos apoyos serán de tipo capacitación para que estos logren conseguir trabajo para así superarse.</p>
+Se busca no solo proporcionar alivio temporal a las personas sin hogar, sino también ofrecerles una vía hacia una vida más digna y autosuficiente, facilitando su reintegración en la sociedad. Para ello se busca crear una página en la que se puedan encontrar albergues o casas de acogida que tengan espacio suficiente para nuevos miembros, además de implementar apoyos para estas personas, estos apoyos serán de tipo capacitación para que estos logren conseguir trabajo para así superarse..</p>
 
 <br>
 <br>
