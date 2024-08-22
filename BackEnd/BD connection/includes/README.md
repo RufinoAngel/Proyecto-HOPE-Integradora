@@ -1,9 +1,9 @@
-# PHP![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![MYSQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+# BD conection![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![MYSQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
-<p align="justify">PHP (Hypertext Preprocessor) es un lenguaje de programación de código abierto que se utiliza para el desarrollo web. Es un lenguaje interpretado que se ejecuta en el servidor y no está controlado por el navegador.<p>
+
 
 <p align="justify">
-En este apartado se incluyen todos archivos en extensión PHP</p>
+En este apartado se incluyen todos archivos que ayudan en la conexion de PHP a las bases de datos.</p>
 
 
 ## Estructura de Archivos

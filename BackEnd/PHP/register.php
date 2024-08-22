@@ -41,7 +41,7 @@
             margin-bottom: 5px;
         }
 
-        input[type="text"], input[type="password"] {
+        input[type="text"], input[type="password"], input[type="email"],[type="tel"] {
             width: 100%;
             padding: 10px;
             border-radius: 5px;
@@ -72,7 +72,7 @@
         }
 
         .login-btn {
-            width: 100%;
+            width: 95%;
             padding: 10px;
             background-color: #28a745;
             color: #ffffff;
@@ -108,7 +108,7 @@
 </head>
 <body>
 
-    <div class="container">
+<div class="container">
         <h2>Registro</h2>
         <form method="POST">
             <div class="form-group">
@@ -123,34 +123,39 @@
                 <label for="password">Contraseña</label>
                 <input type="password" id="password" name="password" required>
             </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Número de Teléfono</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
             <button type="submit" class="submit-btn">Registrar</button>
         </form>
 
         <?php
-        // Incluye el archivo que contiene la clase DB
+        // Conexión a la base de datos
         require_once($_SERVER['DOCUMENT_ROOT'] . '/HOPE/includes/DB.php');
-
-        // Instancia la clase DB para conectarte a la base de datos
         $db = new DB();
         $pdo = $db->connect();
 
-        // Verifica si el formulario ha sido enviado
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            // Obtén los datos del formulario y verifica que existan
             $nombre = isset($_POST['nombre']) ? $_POST['nombre'] : '';
             $username = isset($_POST['username']) ? $_POST['username'] : '';
             $password = isset($_POST['password']) ? $_POST['password'] : '';
+            $email = isset($_POST['email']) ? $_POST['email'] : '';
+            $phone = isset($_POST['phone']) ? $_POST['phone'] : '';
 
-            // Verifica que los campos no estén vacíos
-            if (!empty($nombre) && !empty($username) && !empty($password)) {
+            if (!empty($nombre) && !empty($username) && !empty($password) && !empty($email) && !empty($phone)) {
                 try {
-                    // Prepara la consulta SQL para insertar los datos
-                    $stmt = $pdo->prepare("INSERT INTO registro (nombre, username, password) VALUES (:nombre, :username, :password)");
+                    $stmt = $pdo->prepare("INSERT INTO registro (nombre, username, password, email, phone) VALUES (:nombre, :username, :password, :email, :phone)");
                     $stmt->bindParam(':nombre', $nombre);
                     $stmt->bindParam(':username', $username);
                     $stmt->bindParam(':password', $password);
+                    $stmt->bindParam(':email', $email);
+                    $stmt->bindParam(':phone', $phone);
 
-                    // Ejecuta la consulta
                     if ($stmt->execute()) {
                         echo "<p class='success-message'>Datos guardados correctamente</p>";
                     } else {
@@ -165,9 +170,7 @@
         }
         ?>
 
-        <!-- Botón para iniciar sesión -->
         <a href="/HOPE/login.php" class="login-btn">Iniciar Sesión</a>
     </div>
-
 </body>
 </html>

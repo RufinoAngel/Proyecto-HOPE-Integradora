@@ -47,17 +47,18 @@ $listado_result = $conn->query($listado_sql);
         </div>
         <ul class="nav navbar-nav">
             <li><a href="/HOPE/vistas/user_admin.php">Home</a></li>
-            <li><a href="/HOPE/vistas/nosotros_a.php">Nosotros</a></li>
+            <li><a href="/HOPE/vistas/nosotros_a.php">Usuarios</a></li>
             <li><a href="/HOPE/vistas/servicios_a.php">Servicios</a></li>
             <li><a href="/HOPE/vistas/registro.php">Registro</a></li>
             <li class="active"><a href="/HTML/donacion_a.php">Donación</a></li>
             <li><a href="/HOPE/vistas/calendario_a.php">Calendario</a></li>
+            <li><a href="/HOPE/vistas/eventos.php">Eventos</a></li>
             <li><a href="/HOPE/vistas/inventario_a.php">Inventario</a></li>
             <li><a href="/HOPE/vistas/contacto.php">Homeless</a></li>
             <li><a href="/HOPE/vistas/personal.php">Personal</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/HOPE/vistas/usuario_admin.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+          <li><a href="/HOPE/vistas/usuario_admin.php"><span class="glyphicon glyphicon-user"></span>Perfil</a></li>
           <li><a href="/HOPE/includes/logout.php"><span class="glyphicon glyphicon-log-in"></span> Cerrar sesión</a></li>
         </ul>
       </div>
@@ -70,7 +71,6 @@ $listado_result = $conn->query($listado_sql);
             <div class="panel-body">
                 <p>Total Recibido: $<?php echo number_format($resumen['total_recaudado'], 2); ?></p>
                 <p>Número de Donaciones: <?php echo $resumen['total_donaciones']; ?></p>
-                <!-- Puedes agregar la meta de recaudación si tienes un objetivo establecido -->
             </div>
         </div>
         
@@ -78,17 +78,16 @@ $listado_result = $conn->query($listado_sql);
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Tipo de Donación</th>
-                    <th>Nombre</th>
-                    <th>Monto</th>
-                    <th>Cuenta</th>
-                    <th>CVV</th>
-                    <th>Vigencia</th>
-                    <th>Productos</th>
-                    <th>Tipo de Ropa</th>
-                    <th>Albergue</th>
-                    <th>Dirección</th>
+                <center><th>ID</th></center>
+                    <center><th>Tipo de Donación</th></center>
+                    <center><th>Nombre</th></center>
+                    <center><th>Monto</th></center>
+                    <center><th>Cuenta</th></center>
+                    <center><th>Vigencia</th></center>
+                    <center><th>Productos</th></center>
+                    <center><th>Tipo de Ropa</th></center>
+                    <center><th>Albergue</th></center>
+                    <center><th>Dirección</th><center>
                 </tr>
             </thead>
             <tbody>
@@ -101,7 +100,6 @@ $listado_result = $conn->query($listado_sql);
                             <td>" . htmlspecialchars($row['nombre']) . "</td>
                             <td>$" . number_format($row['monto'], 2) . "</td>
                             <td>" . htmlspecialchars($row['cuenta']) . "</td>
-                            <td>" . htmlspecialchars($row['cvv']) . "</td>
                             <td>" . htmlspecialchars($row['vigencia']) . "</td>
                             <td>" . htmlspecialchars($row['productos']) . "</td>
                             <td>" . htmlspecialchars($row['tipoRopa']) . "</td>

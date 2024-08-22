@@ -43,17 +43,18 @@
         </div>
         <ul class="nav navbar-nav">
             <li><a href="/HOPE/vistas/user_admin.php">Home</a></li>
-            <li><a href="/HOPE/vistas/nosotros_a.php">Nosotros</a></li>
+            <li class="active"><a href="">Usuarios</a></li>
             <li><a href="/HOPE/vistas/servicios_a.php">Servicios</a></li>
-            <li class="active"><a href="/HOPE/vistas/registro.php">Registro</a></li>
+            <li><a href="/HOPE/vistas/registro.php">Registro</a></li>
             <li><a href="/HOPE/vistas/donacion_a.php">Donación</a></li>
             <li><a href="/HOPE/vistas/calendario_a.php">Calendario</a></li>
+            <li><a href="/HOPE/vistas/eventos.php">Eventos</a></li>
             <li><a href="/HOPE/vistas/inventario_a.php">Inventario</a></li>
             <li><a href="/HOPE/vistas/homeless.php">Homeless</a></li>
             <li><a href="/HOPE/vistas/personal.php">Personal</a></li>
           </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/HOPE/vistas/usuario_admin.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+          <li><a href="/HOPE/vistas/usuario_admin.php"><span class="glyphicon glyphicon-user"></span>Perfil</a></li>
           <li><a href="/HOPE/includes/logout.php"><span class="glyphicon glyphicon-log-in"></span> Cerrar sesión</a></li>
         </ul>
       </div>

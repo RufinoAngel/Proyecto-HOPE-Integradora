@@ -34,7 +34,7 @@
                 <li><a href="/HOPE/vistas/contacto.php">Calendario</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/HOPE/vistas/usuario.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+                <li><a href="/HOPE/vistas/usuario.php"><span class="glyphicon glyphicon-user"></span>Perfil</a></li>
                 <li><a href="includes/logout.php"><span class="glyphicon glyphicon-log-in"></span> Cerrar sesión</a></li>
             </ul>
         </div>
