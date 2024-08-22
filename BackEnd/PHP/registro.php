@@ -26,6 +26,15 @@
         .table-custom tbody tr:nth-child(odd) {
             background-color: #555;
         }
+        .btn-edit {
+            background-color: #69d2cd;
+            color: white;
+            border: none;
+            align-items: center;
+        }
+        .btn-edit:hover {
+            background-color: #5bbab5;
+        }
     </style>
 </head>
 <body>
@@ -43,68 +52,70 @@
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="/HOPE/vistas/user_admin.php">Home</a></li>
-                <li><a href="/HOPE/vistas/nosotros_a.php">Nosotros</a></li>
+                <li><a href="/HOPE/vistas/nosotros_a.php">Usuarios</a></li>
                 <li><a href="/HOPE/vistas/servicios_a.php">Servicios</a></li>
                 <li class="active"><a href="#">Registro</a></li>
                 <li><a href="/HOPE/vistas/donacion_a.php">Donación</a></li>
                 <li><a href="/HOPE/vistas/calendario_a.php">Calendario</a></li>
+                <li><a href="/HOPE/vistas/eventos.php">Eventos</a></li>
                 <li><a href="/HOPE/vistas/inventario_a.php">Inventario</a></li>
                 <li><a href="/HOPE/vistas/homeless.php">Homeless</a></li>
+                <li><a href="/HOPE/vistas/personal.php">Personal</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Perfil</a></li>
                 <li><a href="/HOPE/includes/logout.php"><span class="glyphicon glyphicon-log-in"></span> Cerrar sesión</a></li>
             </ul>
         </div>
     </nav>
-    <div class="tit">
-        <h2 id="Sobre">Registro De Personal</h2>
+
+    <div class="container">
+        <h2>Lista de Personas con Habilidades</h2>
+        <table class="table table-bordered table-custom">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre Completo</th>
+                    <th>Edad</th>
+                    <th>Número Identificador</th>
+                    <th>Habilidades</th>
+                    <th>Disponibilidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                $servername = "localhost";
+                $username = "root"; 
+                $password = "";     
+                $dbname = "albergue";
+
+                $conn = new mysqli($servername, $username, $password, $dbname);
+
+                if ($conn->connect_error) {
+                    die("Conexión fallida: " . $conn->connect_error);
+                }
+
+                $sql = "SELECT * FROM habilidades";
+                $result = $conn->query($sql);
+
+                while ($row = $result->fetch_assoc()): ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($row['id']); ?></td>
+                        <td><?php echo htmlspecialchars($row['nombre_completo']); ?></td>
+                        <td><?php echo htmlspecialchars($row['edad']); ?></td>
+                        <td><?php echo htmlspecialchars($row['num_identificador']); ?></td>
+                        <td><?php echo htmlspecialchars($row['habilidades']); ?></td>
+                        <td><?php echo htmlspecialchars($row['disponibilidad']); ?></td>
+                        <td>
+                            <a href="editar.php?id=<?php echo $row['id']; ?>" class="btn btn-edit btn-sm">Editar</a>
+                            <a href="eliminar.php?id=<?php echo $row['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('¿Estás seguro de que deseas eliminar este registro?');">Eliminar</a>
+                        </td>
+                    </tr>
+                <?php endwhile; ?>
+            </tbody>
+        </table>
     </div>
-    <br><br>
-
-    <?php
-    $servername = "localhost";
-    $username = "root"; 
-    $password = "";     
-    $dbname = "albergue";
-
-    $conn = new mysqli($servername, $username, $password, $dbname);
-
-    if ($conn->connect_error) {
-        die("Conexión fallida: " . $conn->connect_error);
-    }
-
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $nombre_completo = isset($_POST['nombre']) ? $_POST['nombre'] : '';
-        $edad = isset($_POST['edad']) ? $_POST['edad'] : '';
-        $num_identificador = isset($_POST['num_identificador']) ? $_POST['num_identificador'] : '';
-        $habilidades = isset($_POST['habilidades']) ? $_POST['habilidades'] : '';
-        $disponibilidad = isset($_POST['disponibilidad']) ? $_POST['disponibilidad'] : '';
-
-        $disponibilidad_opciones = ['tiempo completo', 'medio tiempo', 'por horas'];
-
-        if (!in_array($disponibilidad, $disponibilidad_opciones)) {
-            die("Disponibilidad no válida");
-        }
-
-        $sql = "INSERT INTO habilidades (nombre_completo, edad, num_identificador, habilidades, disponibilidad)
-                VALUES (?, ?, ?, ?, ?)";
-
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param("sisis", $nombre_completo, $edad, $num_identificador, $habilidades, $disponibilidad);
-
-        if ($stmt->execute()) {
-            echo "Datos guardados exitosamente";
-        } else {
-            echo "Error: " . $stmt->error;
-        }
-
-        $stmt->close();
-    }
-
-    $sql = "SELECT * FROM habilidades";
-    $result = $conn->query($sql);
-    ?>
 
     <div class="form-container">
         <h1>Formulario de Habilidades</h1>
@@ -130,34 +141,6 @@
 
             <button type="submit">Enviar</button>
         </form>
-    </div>
-
-    <div class="container">
-        <h2>Lista de Personas con Habilidades</h2>
-        <table class="table table-bordered table-custom">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Nombre Completo</th>
-                    <th>Edad</th>
-                    <th>Número Identificador</th>
-                    <th>Habilidades</th>
-                    <th>Disponibilidad</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php while ($row = $result->fetch_assoc()): ?>
-                    <tr>
-                        <td><?php echo htmlspecialchars($row['id']); ?></td>
-                        <td><?php echo htmlspecialchars($row['nombre_completo']); ?></td>
-                        <td><?php echo htmlspecialchars($row['edad']); ?></td>
-                        <td><?php echo htmlspecialchars($row['num_identificador']); ?></td>
-                        <td><?php echo htmlspecialchars($row['habilidades']); ?></td>
-                        <td><?php echo htmlspecialchars($row['disponibilidad']); ?></td>
-                    </tr>
-                <?php endwhile; ?>
-            </tbody>
-        </table>
     </div>
 
     <footer class="footer">

@@ -33,7 +33,7 @@
                 <li><a href="/HOPE/vistas/contacto.php">Calendario</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/HOPE/vistas/usuario.php"><span class="glyphicon glyphicon-user"></span>Usuario</a></li>
+                <li><a href="/HOPE/vistas/usuario.php"><span class="glyphicon glyphicon-user"></span>Perfil</a></li>
                 <li><a href="/HOPE/includes/logout.php"><span class="glyphicon glyphicon-log-in"></span> Cerrar sesión</a></li>
             </ul>
         </div>
@@ -94,10 +94,8 @@
                         $tipoenfermedad = isset($_POST['tipoenfermedad']) ? $_POST['tipoenfermedad'] : '';
                         $fam = isset($_POST['familiares']) ? $_POST['familiares'] : '';
 
-                        // Verifica que los campos no estén vacíos
-                        if (!empty($nombre) && !empty($apellido) && !empty($curp)) {
+                        if (!empty($nombre)) {
                             try {
-                                // Prepara la consulta SQL para insertar los datos
                                 $stmt = $pdo->prepare("INSERT INTO persona_sin_hogar (nombre, apellidos, curp, enfermedades, tipo_enfermedad, familiares) VALUES (:nombre, :apellido, :curp, :enfermedad, :tipoenfermedad, :familiares)");
                                 $stmt->bindParam(':nombre', $nombre);
                                 $stmt->bindParam(':apellido', $apellido);
@@ -106,7 +104,6 @@
                                 $stmt->bindParam(':tipoenfermedad', $tipoenfermedad);
                                 $stmt->bindParam(':familiares', $fam);
 
-                                // Ejecuta la consulta
                                 if ($stmt->execute()) {
                                     echo "<p class='success-message'>Datos guardados correctamente</p>";
                                 } else {
@@ -140,7 +137,6 @@
                 $db = new DB();
                 $pdo = $db->connect();
                 
-                // Obtener datos de la tabla
                 $sql = "SELECT * FROM recursos";
                 $stmt = $pdo->query($sql);
 
@@ -213,21 +209,17 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/HOPE/includes/DB.php');
 $db = new DB();
 $pdo = $db->connect();
 
-// Obtén los datos del formulario
 $satisfaccion = isset($_POST['satisfaccion']) ? $_POST['satisfaccion'] : '';
 $mejorar = isset($_POST['mejorar']) ? $_POST['mejorar'] : '';
 $comentarios = isset($_POST['comentarios']) ? $_POST['comentarios'] : '';
 
-// Verifica que todos los campos necesarios estén presentes
 if (!empty($satisfaccion)) {
     try {
-        // Prepara la consulta SQL para insertar los datos
         $stmt = $pdo->prepare("INSERT INTO encuesta (satisfaccion, mejorar, comentarios) VALUES (:satisfaccion, :mejorar, :comentarios)");
         $stmt->bindParam(':satisfaccion', $satisfaccion);
         $stmt->bindParam(':mejorar', $mejorar);
         $stmt->bindParam(':comentarios', $comentarios);
 
-        // Ejecuta la consulta
         if ($stmt->execute()) {
             echo "<p class='success-message'>Encuesta guardada correctamente.</p>";
         } else {
