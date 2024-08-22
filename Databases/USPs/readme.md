@@ -18,4 +18,4 @@ En esta seccion se mostraran los procedimientos almacenados para realizar tareas
    |----------|--------|---|-------------|
    |Balderas Gomez Dulce|[@DulceBal](https://github.com/Josue-Martinez-Otero)|Líder de Databases|✅ Revisado y aprobado.|
    |Vargas Galindo Guadalupe Idai  |[@IdaiVG](https://github.com/IdaiVG)|Desarrollora Backend y encargada de Documentación|✅ Revisado y aprobado.|
-   |Rufino Mendoza Ángel de Jesús|[@RufinoAngel](https://github.com/RufinoAngel)|Desarrollador Frontend|❌ Revisado, Solo hace falta agregar las extensiones|
+   |Rufino Mendoza Ángel de Jesús|[@RufinoAngel](https://github.com/RufinoAngel)|Desarrollador Frontend|✅ Revisado y aprobado.|
