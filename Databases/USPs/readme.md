@@ -17,5 +17,5 @@ En esta seccion se mostraran los procedimientos almacenados para realizar tareas
    |Integrante|Contacto|Rol|Observaciones|
    |----------|--------|---|-------------|
    |Balderas Gomez Dulce|[@DulceBal](https://github.com/Josue-Martinez-Otero)|Líder de Databases|✅ Revisado y aprobado.|
-   |Vargas Galindo Guadalupe Idai  |[@IdaiVG](https://github.com/IdaiVG)|Desarrollora Backend y encargada de Documentación|❌ Revisado, apliac un "br"  para bajar el parráfo después del diagrama.|
+   |Vargas Galindo Guadalupe Idai  |[@IdaiVG](https://github.com/IdaiVG)|Desarrollora Backend y encargada de Documentación|✅ Revisado y aprobado.|
    |Rufino Mendoza Ángel de Jesús|[@RufinoAngel](https://github.com/RufinoAngel)|Desarrollador Frontend|❌ Revisado, Solo hace falta agregar las extensiones|
