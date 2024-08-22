@@ -12,3 +12,12 @@ Integradora-HOPE/<br>
 │ └── HTML <br>
 **│ └── JS** <br>
 └── Documentation <br>
+
+
+
+## Equipo de Desarollo
+| Integrante | Contacto | Rol | Observaciones |
+|-------------|--------|----------|---------------|
+|  Angel de Jesús Rufino Mendoza   |  [@RufinoAngel](https://github.com/RufinoAngel)      |    Líder del Desarrollo FrontEnd   |✅Revisado y aprobado  |
+|Guadalupe Idai Vargas Galindo|[@IdaiVG](https://github.com/IdaiVG)|Desarrollador Backend y Documentadora| ✅Revisado y aprobado |
+|Dulce Balderas Gomez|[@DulceBal](https://github.com/DulceBal)|Desarrollador de Databases|✅Revisado y aprobado|
