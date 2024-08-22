@@ -1,12 +1,8 @@
-# **Mockups**
+# **Mapa de Sitio**
 
-<p align = "justify">Los mockups son una maqueta o maqueta de un modelo a escala o de tamaño completo de un diseño o dispositivo, que se utiliza para la enseñanza, la demostración, evaluación del diseño, promoción y otros fines.</p>
+<p align = "justify">Los mapas del sitio son archivos que proporcionan información sobre las páginas, los videos y otros elementos de tu sitio, así como la relación entre ellos. Los motores de búsqueda, como Google, leen este archivo para rastrear tu sitio de manera más eficiente.</p>
 
-<p align = "justif">En esta sección mostraremos nuestros mockups que se espera contenga en su totalidad la página web.</p>
-
-A continuación, mostramos un ejemplo de mockups:
-![Ejemplo de Mockup](/Assets/Ejm_mockup.png)
-
+<p align = "justif">En esta sección mostraremos nuestras idea del mapa de sitio de nuestra página web.</p>
 
 
 <br>
