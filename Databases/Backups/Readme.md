@@ -23,4 +23,4 @@ Los backups serán ejecutados automáticamente por medio de un script programado
    |----------|--------|---|-------------|
    |Balderas Gomez Dulce|[@DulceBal](https://github.com/Josue-Martinez-Otero)|Líder de Databases|✅ Revisado y aprobado.|
    |Vargas Galindo Guadalupe Idai  |[@IdaiVG](https://github.com/IdaiVG)|Desarrollora Backend y encargada de Documentación|✅ Revisado y aprobado.|
-   |Rufino Mendoza Ángel de Jesús|[@RufinoAngel](https://github.com/RufinoAngel)|Desarrollador Frontend|❌ Sin revisar|
+   |Rufino Mendoza Ángel de Jesús|[@RufinoAngel](https://github.com/RufinoAngel)|Desarrollador Frontend|✅ Revisado y aprobado.|
