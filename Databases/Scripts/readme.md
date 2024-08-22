@@ -18,5 +18,5 @@ Un script es un conjunto de instrucciones escritas en un lenguaje de consulta (c
    |Integrante|Contacto|Rol|Observaciones|
    |----------|--------|---|-------------|
    |Balderas Gomez Dulce|[@DulceBal](https://github.com/Josue-Martinez-Otero)|Líder de Databases|✅ Revisado y aprobado.|
-   |Vargas Galindo Guadalupe Idai  |[@IdaiVG](https://github.com/IdaiVG)|Desarrollora Backend y encargada de Documentación|❌ Sin revisar.|
+   |Vargas Galindo Guadalupe Idai  |[@IdaiVG](https://github.com/IdaiVG)|Desarrollora Backend y encargada de Documentación|✅ Revisado y aprobado.|
    |Rufino Mendoza Ángel de Jesús|[@RufinoAngel](https://github.com/RufinoAngel)|Desarrollador Frontend|❌ Sin revisar|
